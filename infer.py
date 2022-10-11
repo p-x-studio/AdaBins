@@ -8,9 +8,9 @@ from PIL import Image
 from torchvision import transforms
 from tqdm import tqdm
 
-import model_io
-import utils
-from models import UnetAdaptiveBins
+import animation.adabins.model_io as model_io
+import animation.adabins.utils
+from animation.adabins.models import UnetAdaptiveBins
 
 
 def _is_pil_image(img):
